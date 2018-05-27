@@ -14,10 +14,12 @@ class Course extends Component {
 
     componentDidMount() {
         this.parseQueryParams();
+        console.log('In componentDidMount');
     }
 
     componentDidUpdate() {
         this.parseQueryParams();
+        console.log('In componentDidUpdate');
     }
 
     parseQueryParams() {
